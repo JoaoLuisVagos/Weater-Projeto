@@ -1,0 +1,7 @@
+{
+    "name": "weater/projeto",
+    "description": "Projeto do weater",
+    "require": {
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
