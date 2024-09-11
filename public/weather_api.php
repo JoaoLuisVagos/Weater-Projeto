@@ -10,6 +10,7 @@ if (empty($city)) {
     exit;
 }
 
+// Tive que usar a versão 2.5, a 3.0 estava pedindo uma subscription para a key funcionar
 $apiUrl = "https://api.openweathermap.org/data/2.5/weather?appid={$apiKey}&q=" . urlencode($city);
 
 $response = file_get_contents($apiUrl);
