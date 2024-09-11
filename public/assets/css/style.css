@@ -2,22 +2,24 @@ body {
     background-color: #f8f9fa;
 }
 
-.container {
-    max-width: 600px;
-}
-
 h1 {
-    color: #007bff;
+    color: #79D2E6;
     margin-bottom: 20px;
 }
 
-.form-control {
-    border-radius: 0.5rem;
+.full-height {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.btn-primary {
-    background-color: #007bff;
-    border: none;
+.container {
+    max-width: 1200px;
+    width: 100%;
+}
+
+.form-control {
     border-radius: 0.5rem;
 }
 
@@ -44,4 +46,19 @@ h1 {
 
 .weather-icon {
     width: 100px;
+}
+
+.custom-btn {
+    background-color: #79D2E6;
+    color: #fff;
+    border: none;
+}
+
+.custom-btn:hover {
+    background-color: #5db3c6;
+}
+
+.custom-btn:disabled {
+    background-color: #cfe9f1;
+    cursor: not-allowed;
 }
